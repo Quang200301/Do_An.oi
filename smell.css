@@ -1,0 +1,45 @@
+.contain{
+    background: rgb(107, 107, 107);
+    height: 100vh;
+}
+nav{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 1px solid rgb(243, 236, 234);
+
+}
+.img{
+    width: 20%;
+    justify-content: ;
+    
+    
+}
+.bodys{
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    color: rgb(43, 49, 226);
+}
+.bodys a{
+    font-size: 30px;
+}
+ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-top: 50px;
+}
+li a{
+    color:rgb(246, 255, 0) ;
+    font-size: 30px;
+    list-style: none;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+li::marker{
+    display: none;
+}

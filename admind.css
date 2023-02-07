@@ -1,0 +1,14 @@
+
+div.header{
+    margin-left: 20%;
+}
+div.contain{
+    font-size: 20px;
+    margin-left: 20%;
+}
+.div.contain {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  
+}
